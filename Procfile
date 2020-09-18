@@ -1,1 +1,1 @@
-web: gunicorn craigslist --log-file=-
+web: gunicorn webscrapper.wsgi 
