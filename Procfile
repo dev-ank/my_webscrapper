@@ -1,1 +1,1 @@
-web: gunicorn app:craigslist --log-file=-
+web: gunicorn craigslist --log-file=-
